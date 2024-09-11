@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
   <questions>
-    <question schemaid="1337" qid="SELK" qtype="500" pageorder="Side1" qorder="2">
+    <question schemaid="4782" qid="SELK" qtype="500" pageorder="1" qorder="1">
       <questiontext languageid="nb" qtext="Henvendelsen gjelder"/>
       <options>
         <option>
@@ -14,7 +14,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="Q7" qtype="500" pageorder="Side2a" qorder="2">
+    <question schemaid="4782" qid="Q7" qtype="500" pageorder="2" qorder="2">
       <questiontext languageid="nb" qtext="Jeg søker stipend til"/>
       <options>
         <option>
@@ -59,15 +59,15 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="Q15" qtype="400" pageorder="Side2a" qorder="3">
+    <question schemaid="4782" qid="Q15" qtype="400" pageorder="2" qorder="3">
       <questiontext languageid="nb" qtext="Utfyllende begrunnelse for søknaden"/>
     </question>
-    <question schemaid="1337" qid="Q16" qtype="300" pageorder="Side2a" qorder="5"/>
-    <question schemaid="1337" qid="Q17" qtype="300" pageorder="Side2a" qorder="6"/>
-    <question schemaid="1337" qid="Q18" qtype="300" pageorder="Side2a" qorder="7"/>
-    <question schemaid="1337" qid="Q19" qtype="300" pageorder="Side2a" qorder="8"/>
-    <question schemaid="1337" qid="Q20" qtype="300" pageorder="Side2a" qorder="9"/>
-    <question schemaid="1337" qid="Q9" qtype="500" pageorder="Side2b" qorder="2">
+    <question schemaid="4782" qid="Q16" qtype="300" pageorder="2" qorder="4"/>
+    <question schemaid="4782" qid="Q17" qtype="300" pageorder="2" qorder="5"/>
+    <question schemaid="4782" qid="Q18" qtype="300" pageorder="2" qorder="6"/>
+    <question schemaid="4782" qid="Q19" qtype="300" pageorder="2" qorder="7"/>
+    <question schemaid="4782" qid="Q20" qtype="300" pageorder="2" qorder="8"/>
+    <question schemaid="4782" qid="Q9" qtype="500" pageorder="3" qorder="9">
       <questiontext languageid="nb" qtext="Jeg ettersender dokumentasjon for"/>
       <options>
         <option>
@@ -80,10 +80,10 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="Q10" qtype="300" pageorder="Side2b" qorder="3">
+    <question schemaid="4782" qid="Q10" qtype="300" pageorder="3" qorder="10">
       <questiontext languageid="nb" qtext="Hva annet vil du dokumentere?"/>
     </question>
-    <question schemaid="1337" qid="INFOMANGLENDEDOK" qtype="501" pageorder="Side2b" qorder="4">
+    <question schemaid="4782" qid="INFOMANGLENDEDOK" qtype="501" pageorder="3" qorder="11">
       <options>
         <option>
           <label>Trykk her hvis dette er en ettersending av dokumentasjon pga mangelfull dokumentasjon ved tidligere innlevering.</label>
@@ -91,10 +91,10 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="Q15" qtype="400" pageorder="Side2b" qorder="5">
+    <question schemaid="4782" qid="Q15" qtype="400" pageorder="3" qorder="12">
       <questiontext languageid="nb" qtext="Merknad"/>
     </question>
-    <question schemaid="1337" qid="Q14" qtype="501" pageorder="Side3" qorder="3">
+    <question schemaid="4782" qid="Q14" qtype="501" pageorder="4" qorder="13">
       <options>
         <option>
           <label>Trykk her for å bekrefte</label>

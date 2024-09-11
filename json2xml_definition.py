@@ -4,6 +4,8 @@ import sys
 from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
 import xml.dom.minidom
 
+# List of qtypes to exclude
+QTYPE_EXCLUDED = {"Image", "Header", "NavigationButtons", "Paragraph", "Button", ""}
 
 # Mapping of qtypes to numerical codes
 QTYPE_CODES = {
@@ -19,17 +21,15 @@ def json_to_xml(json_obj, schemaid):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
     root = Element("root")
     questions = SubElement(root, "questions")
-
-    # List of qtypes to exclude
-    exclude_qtypes = {"Image", "Header", "NavigationButtons", "Paragraph", "Button"}
+    pcount = 1; qcount = 1
 
     for page in json_obj.get("pages", []):
-        page_id = page.get("pageId", "")
+        # page_id = page.get("pageId", "") TODO: Remove
         for component in page.get("components", []):
             qtype = component.get("type", "")
             
             # Skip if the qtype is in the exclusion list
-            if qtype in exclude_qtypes:
+            if qtype in QTYPE_EXCLUDED:
                 continue
 
             # Get the qid from dataModelBindings.simpleBinding
@@ -40,19 +40,21 @@ def json_to_xml(json_obj, schemaid):
             if not qid:
                 continue
 
-            qorder = str(component.get("sortOrder", ""))
+            # qorder = str(component.get("sortOrder", "")) TODO: Remove
 
             # Get the qtype code from the mapping, default to "999" if not found
             qtype_code = QTYPE_CODES.get(qtype, "999")
 
             # Create the main question element
             question = SubElement(questions, "question", {
-                "schemaid": schemaid,  # Now uses schemaid passed as a parameter
-                "qid": qid,
-                "qtype": qtype_code,  # Use the code instead of textual qtype
-                "pageorder": page_id,
-                "qorder": qorder
+                "schemaid": str(schemaid),  # Now uses schemaid passed as a parameter
+                "qid": str(qid),
+                "qtype": str(qtype_code),  # Use the code instead of textual qtype
+                "pageorder": str(pcount),
+                "qorder": str(qcount)
             })
+
+            qcount += 1
 
             # Add the question text
             for text_item in component.get("texts", []):
@@ -73,6 +75,7 @@ def json_to_xml(json_obj, schemaid):
                         label_element.text = label.get("value", "")
                     value_element = SubElement(option_element, "value")
                     value_element.text = str(option.get("value", ""))
+        pcount += 1
 
     return root
 
