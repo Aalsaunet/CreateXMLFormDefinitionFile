@@ -1,0 +1,1048 @@
+<?xml version="1.0" ?>
+<root>
+  <questions>
+    <question schemaid="1234" qid="INFOEPOST" qtype="300" pageorder="Side1" qorder="8"/>
+    <question schemaid="1234" qid="Q136" qtype="500" pageorder="Side2" qorder="2">
+      <questiontext languageid="nb" qtext="1: Hvor har du fått mest informasjon om Forsvaret"/>
+      <options>
+        <option>
+          <label>Jeg har familie eller venner som har tjenestegjort eller jobber i Forsvaret</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Jeg har vært på foredrag om Forsvaret på videregående skole, eller utdanningsmesse</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Jeg har sett reklame på sosiale medier eller på kino/tv</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Forsvaret.no eller &quot;Min side&quot;</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Jeg har ikke fått informasjon om Forsvaret</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>6</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="MTVO1" qtype="500" pageorder="Side2" qorder="3">
+      <questiontext languageid="nb" qtext="2: Jeg ønsker å gjennomføre førstegangstjeneste"/>
+      <options>
+        <option>
+          <label>Stemmer bra</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Stemmer ganske bra</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Vet ikke</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Stemmer dårlig</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Stemmer ikke i det hele tatt</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q86" qtype="500" pageorder="Side2" qorder="4">
+      <questiontext languageid="nb" qtext="2a: Hovedsaklig fordi"/>
+      <options>
+        <option>
+          <label>Jeg syntes det virker spennende med videre tjeneste i Forsvaret etter førstegangstjenesten</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Jeg er interessert i å ta utdanning i Forsvaret</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Jeg kunne tenkt meg å delta i internasjonale operasjoner med Forsvaret</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Jeg tror det vil være utfordrende og motiverende</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Mine venner ønsker førstegangstjeneste</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Flere i min familie anbefaler førstegangstjeneste</label>
+          <value>6</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>7</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q87" qtype="500" pageorder="Side2" qorder="5">
+      <questiontext languageid="nb" qtext="2b: Hovedsaklig fordi"/>
+      <options>
+        <option>
+          <label>Jeg mangler informasjon om Forsvaret</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Jeg har allerede bestemt meg for karrierevei utenfor Forsvaret</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Førstegangstjenesten fremstår som for fysisk eller psykisk utfordrende</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Jeg har et dårlig inntrykk av Forsvaret</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Jeg ønsker ikke å oppgi årsak</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>6</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q141" qtype="500" pageorder="Side2" qorder="6">
+      <questiontext languageid="nb" qtext="3: Jeg kunne tenkt meg videre tjeneste i Forsvaret etter førstegangstjenesten"/>
+      <options>
+        <option>
+          <label>Stemmer bra</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Stemmer ganske bra</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Vet ikke</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Stemmer dårlig</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Stemmer ikke i det hele tatt</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q139" qtype="500" pageorder="Side2" qorder="7">
+      <questiontext languageid="nb" qtext="4: Jeg er interessert i en spesiell utdanning i Forsvaret"/>
+      <options>
+        <option>
+          <label>Fagutdanning etterretning og språk</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Flygerutdanning</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Ingeniørutdanning med bachelorgrad</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Jegerutdanning</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Lederutdanning med bachelorgrad</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Lederutdanning på befalskole</label>
+          <value>6</value>
+        </option>
+        <option>
+          <label>Lærling</label>
+          <value>7</value>
+        </option>
+        <option>
+          <label>Spesialstyrkeutdanning</label>
+          <value>8</value>
+        </option>
+        <option>
+          <label>Teknisk fagutdanning</label>
+          <value>9</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>10</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>11</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q95" qtype="500" pageorder="Side2" qorder="8">
+      <questiontext languageid="nb" qtext="5: Hvis Forsvaret velger deg for gjennomføring av førstegangstjenesten, hvilken forsvarsgren kunne du tenke deg å tjenestegjøre i?"/>
+      <options>
+        <option>
+          <label>Hæren</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Sjøforsvaret</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Luftforsvaret</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Heimevernet</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Vet ikke</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="HOYD1" qtype="300" pageorder="Side3" qorder="3"/>
+    <question schemaid="1234" qid="VEKT1" qtype="300" pageorder="Side3" qorder="4"/>
+    <question schemaid="1234" qid="Q5" qtype="500" pageorder="Side3" qorder="5">
+      <options>
+        <option>
+          <label>5 ganger i uka eller mer</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>3 - 4 ganger i uka</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>1 - 2 ganger i uka</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Sjeldnere enn 1 gang i uka</label>
+          <value>4</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="EV3M" qtype="999" pageorder="Side3" qorder="6">
+      <options>
+        <option>
+          <label>12:00 eller mindre</label>
+          <value>1200</value>
+        </option>
+        <option>
+          <label>12:01 - 12:30</label>
+          <value>1230</value>
+        </option>
+        <option>
+          <label>12:31 - 13:00</label>
+          <value>1300</value>
+        </option>
+        <option>
+          <label>13:01 - 13:30</label>
+          <value>1330</value>
+        </option>
+        <option>
+          <label>13:31 - 14:00</label>
+          <value>1400</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="EVPU" qtype="999" pageorder="Side3" qorder="7">
+      <options>
+        <option>
+          <label>0</label>
+          <value>0</value>
+        </option>
+        <option>
+          <label>1</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>2</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>3</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>4</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>5 eller mer</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="EVHU1" qtype="999" pageorder="Side3" qorder="10">
+      <options>
+        <option>
+          <label>0</label>
+          <value>0</value>
+        </option>
+        <option>
+          <label>1</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>2</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>3</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>4</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>5 eller mer</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="EVSL" qtype="999" pageorder="Side3" qorder="12">
+      <options>
+        <option>
+          <label>144 eller kortere</label>
+          <value>0</value>
+        </option>
+        <option>
+          <label>145 - 159</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>160 - 169</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>170 - 179</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>180 - 184</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>185 eller mer</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="SVOM1" qtype="500" pageorder="Side3" qorder="14">
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q12" qtype="500" pageorder="Side3" qorder="15">
+      <options>
+        <option>
+          <label>Ofte (10 ganger eller mer per år)</label>
+          <value>0</value>
+        </option>
+        <option>
+          <label>Noen ganger (3 - 9 ganger per år)</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Sjelden (1 - 2 ganger per år)</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Aldri</label>
+          <value>3</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="SKIF" qtype="500" pageorder="Side3" qorder="16">
+      <options>
+        <option>
+          <label>Konkurranseløper</label>
+          <value>0</value>
+        </option>
+        <option>
+          <label>Erfaren turløper</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Turløper</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Uerfaren</label>
+          <value>3</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q99" qtype="500" pageorder="Side4" qorder="3">
+      <questiontext languageid="nb" qtext="16: Har du kreftsykdom som ikke er ferdig behandlet eller som fortsatt kontrolleres hos spesialist?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q100" qtype="500" pageorder="Side4" qorder="5">
+      <questiontext languageid="nb" qtext="17: Har du / har du hatt nevrologisk sykdom som medfører lammelser eller nedsatt funksjonsevne?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q101" qtype="500" pageorder="Side4" qorder="7">
+      <questiontext languageid="nb" qtext="18: Har du blødersykdom eller annen sykdom som fører til økt blødningstendens?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q102" qtype="500" pageorder="Side4" qorder="9">
+      <questiontext languageid="nb" qtext="19: Har du diabetes, (sukkersyke), uansett type?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q103" qtype="500" pageorder="Side4" qorder="11">
+      <questiontext languageid="nb" qtext="20: Har du epilepsi eller har hatt barneepilepsi som fortsatt krever kontroll hos spesialist?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q104" qtype="500" pageorder="Side4" qorder="13">
+      <questiontext languageid="nb" qtext="21: Har du psykisk utviklingshemming?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q105" qtype="500" pageorder="Side4" qorder="15">
+      <questiontext languageid="nb" qtext="22: Har du autisme, Aspergers syndrom eller Tourettes syndrom?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q106" qtype="500" pageorder="Side4" qorder="17">
+      <questiontext languageid="nb" qtext="23: Har du noen gang hatt planer om å ta ditt eget liv?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q107" qtype="500" pageorder="Side4" qorder="19">
+      <questiontext languageid="nb" qtext="24: Har du skadet deg selv med vilje?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q108" qtype="500" pageorder="Side4" qorder="21">
+      <questiontext languageid="nb" qtext="25: Har du ADHD/ADD?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q109" qtype="500" pageorder="Side4" qorder="23">
+      <questiontext languageid="nb" qtext="26: Har du / har du hatt psykose?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q144" qtype="500" pageorder="Side4" qorder="25">
+      <questiontext languageid="nb" qtext="27: Har du / har du hatt behandlingstrengende angst, depresjon eller sosial fobi?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q110" qtype="500" pageorder="Side4" qorder="27">
+      <questiontext languageid="nb" qtext="28: Har du / har du hatt spiseforstyrrelse (f.eks. anoreksi eller bulimi)?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q111" qtype="500" pageorder="Side4" qorder="29">
+      <questiontext languageid="nb" qtext="29: Har du hatt alvorlig allergisk reaksjon som har medført sykehusinnleggelse eller at du har fått adrenalinpenn?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q112" qtype="500" pageorder="Side4" qorder="31">
+      <questiontext languageid="nb" qtext="30: Har du hjertesykdom og/eller hjerterytmeforstyrrelse som fortsatt krever kontroll hos spesialist?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q113" qtype="500" pageorder="Side4" qorder="33">
+      <questiontext languageid="nb" qtext="31: Har du hatt spontan pneumothorax (kollaps av lunge uten skade utenfra)?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q114" qtype="500" pageorder="Side4" qorder="35">
+      <questiontext languageid="nb" qtext="32: Har du leddgikt eller annen revmatisk sykdom?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q115" qtype="500" pageorder="Side4" qorder="37">
+      <questiontext languageid="nb" qtext="33: Har du hatt skulder ute av ledd?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q116" qtype="500" pageorder="Side4" qorder="39">
+      <questiontext languageid="nb" qtext="34: Har du alvorlig infeksjonssykdom som er behandlingskrevende eller sykdom som fortsatt medfører smitterisiko (f.eks. HIV, hepatitt B, heptitt C.)?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q118" qtype="500" pageorder="Side4" qorder="41">
+      <questiontext languageid="nb" qtext="35: Har du tarmsykdom som ulcerøs kolitt eller Crohns sykdom?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q119" qtype="500" pageorder="Side4" qorder="43">
+      <questiontext languageid="nb" qtext="36: Har du cøliaki?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q120" qtype="500" pageorder="Side4" qorder="45">
+      <questiontext languageid="nb" qtext="37: Har du laktoseintoleranse?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q121" qtype="500" pageorder="Side4" qorder="47">
+      <questiontext languageid="nb" qtext="38: Er du blind på ett eller begge øyne?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q122" qtype="500" pageorder="Side4" qorder="49">
+      <questiontext languageid="nb" qtext="39: Er du døv på ett eller begge ører eller bruker høreapparat?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q98" qtype="500" pageorder="Side4" qorder="51">
+      <questiontext languageid="nb" qtext="40: Føler du deg helsemessig skikket til tjeneste i Forsvaret?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q123" qtype="500" pageorder="Side4" qorder="53">
+      <questiontext languageid="nb" qtext="41: Bruker du medisiner som du trenger å ta hver dag for ikke å bli alvorlig syk?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q124" qtype="500" pageorder="Side4" qorder="55">
+      <questiontext languageid="nb" qtext="42: Har du annen alvorlig sykdom, skade, misdannelse eller handikap som ikke er beskrevet i spørsmålene ovenfor som gjør deg uegnet til tjeneste i Forsvaret?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q26" qtype="500" pageorder="Side5" qorder="2">
+      <questiontext languageid="nb" qtext="43: Har du prøvd narkotika eller doping i løpet av det siste året?"/>
+      <options>
+        <option>
+          <label>Nei</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Har prøvd noen ganger</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Bruker jevnlig</label>
+          <value>3</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="HOBB1" qtype="501" pageorder="Side6" qorder="2">
+      <questiontext languageid="nb" qtext="44: Er du aktiv innen en eller flere av følgende hobbyer?"/>
+      <options>
+        <option>
+          <label>Foto</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Journalist</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Janitsjarinstrument</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Programmering</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Ingen av disse hobbyene</label>
+          <value>INGEN</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q97" qtype="999" pageorder="Side6" qorder="3">
+      <questiontext languageid="nb" qtext="44 a: Hva beskriver best din erfaring med programmering?"/>
+      <options>
+        <option>
+          <label>Lite, eller kun som del av skolefag</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Har prøvd meg litt på egenhånd og ønsker å lære mer</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Har holdt på med programmering over tid, og kunne tenke meg å bli utvikler på fulltid</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Har bidratt inn i prosjekter, og ønsker å være utvikler på fulltid</label>
+          <value>4</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="Q91" qtype="999" pageorder="Side6" qorder="4">
+      <questiontext languageid="nb" qtext="44 b: Hvilket instrument spiller du?"/>
+      <options>
+        <option>
+          <label>Altsaksofon</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Barytonsaksofon</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Bassklarinett</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Cymbaler</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Eufonium</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Fagott</label>
+          <value>6</value>
+        </option>
+        <option>
+          <label>Klarinett</label>
+          <value>7</value>
+        </option>
+        <option>
+          <label>Kornett</label>
+          <value>8</value>
+        </option>
+        <option>
+          <label>Obo</label>
+          <value>9</value>
+        </option>
+        <option>
+          <label>Pikkolofløyte</label>
+          <value>10</value>
+        </option>
+        <option>
+          <label>Tenorsaksofon</label>
+          <value>11</value>
+        </option>
+        <option>
+          <label>Trombone</label>
+          <value>12</value>
+        </option>
+        <option>
+          <label>Trommer</label>
+          <value>13</value>
+        </option>
+        <option>
+          <label>Trompet</label>
+          <value>14</value>
+        </option>
+        <option>
+          <label>Tuba</label>
+          <value>15</value>
+        </option>
+        <option>
+          <label>Tverrfløyte</label>
+          <value>16</value>
+        </option>
+        <option>
+          <label>Valthorn</label>
+          <value>17</value>
+        </option>
+        <option>
+          <label>Xylofon</label>
+          <value>18</value>
+        </option>
+        <option>
+          <label>Spiller ikke noen av disse instrumentene</label>
+          <value>19</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="SPRK2" qtype="500" pageorder="Side6" qorder="5">
+      <questiontext languageid="nb" qtext="45: Kan du noen andre språk enn norsk og engelsk? Skriftlig og/eller muntlig, meget godt."/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1234" qid="SPRK3" qtype="501" pageorder="Side6" qorder="6">
+      <questiontext languageid="nb" qtext="45 a: Hvilke språk på listen her kan du?"/>
+      <options>
+        <option>
+          <label>Bambara</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Burmesisk</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Dinka</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Estisk</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Fransk</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Georgisk</label>
+          <value>6</value>
+        </option>
+        <option>
+          <label>Hausa</label>
+          <value>7</value>
+        </option>
+        <option>
+          <label>Italiensk</label>
+          <value>8</value>
+        </option>
+        <option>
+          <label>Japansk</label>
+          <value>9</value>
+        </option>
+        <option>
+          <label>Kinesisk (Mandarin)</label>
+          <value>10</value>
+        </option>
+        <option>
+          <label>Kinesisk (andre varianter)</label>
+          <value>11</value>
+        </option>
+        <option>
+          <label>Koreansk</label>
+          <value>12</value>
+        </option>
+        <option>
+          <label>Latvisk</label>
+          <value>13</value>
+        </option>
+        <option>
+          <label>Litauisk</label>
+          <value>14</value>
+        </option>
+        <option>
+          <label>Nuer</label>
+          <value>15</value>
+        </option>
+        <option>
+          <label>Pashto</label>
+          <value>16</value>
+        </option>
+        <option>
+          <label>Persisk (Farsi)</label>
+          <value>17</value>
+        </option>
+        <option>
+          <label>Polsk</label>
+          <value>18</value>
+        </option>
+        <option>
+          <label>Punjabi</label>
+          <value>19</value>
+        </option>
+        <option>
+          <label>Russisk</label>
+          <value>20</value>
+        </option>
+        <option>
+          <label>Somali (Flere varianter)</label>
+          <value>21</value>
+        </option>
+        <option>
+          <label>Spansk</label>
+          <value>22</value>
+        </option>
+        <option>
+          <label>Swahili</label>
+          <value>23</value>
+        </option>
+        <option>
+          <label>Tadjikisk</label>
+          <value>24</value>
+        </option>
+        <option>
+          <label>Tsjetsjensk</label>
+          <value>25</value>
+        </option>
+        <option>
+          <label>Turkmensk</label>
+          <value>26</value>
+        </option>
+        <option>
+          <label>Tyrkisk</label>
+          <value>27</value>
+        </option>
+        <option>
+          <label>Tysk</label>
+          <value>28</value>
+        </option>
+        <option>
+          <label>Ukrainsk</label>
+          <value>29</value>
+        </option>
+        <option>
+          <label>Urdu</label>
+          <value>30</value>
+        </option>
+        <option>
+          <label>Usbekisk</label>
+          <value>31</value>
+        </option>
+        <option>
+          <label>Dari</label>
+          <value>32</value>
+        </option>
+        <option>
+          <label>Et annet språk enn på denne listen</label>
+          <value>33</value>
+        </option>
+      </options>
+    </question>
+  </questions>
+</root>

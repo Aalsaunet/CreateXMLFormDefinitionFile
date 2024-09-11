@@ -5,7 +5,17 @@ from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
 import xml.dom.minidom
 
 
-def json_to_xml(json_obj):
+# Mapping of qtypes to numerical codes
+QTYPE_CODES = {
+    "RadioButtons": "500",
+    "Input": "300",
+    "Checkboxes": "501",
+    "TextArea": "400",
+    # Add more mappings as needed
+}
+
+
+def json_to_xml(json_obj, schemaid):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
     root = Element("root")
     questions = SubElement(root, "questions")
@@ -30,14 +40,16 @@ def json_to_xml(json_obj):
             if not qid:
                 continue
 
-            schemaid = qid.split("-")[0] if "-" in qid else ""
             qorder = str(component.get("sortOrder", ""))
+
+            # Get the qtype code from the mapping, default to "999" if not found
+            qtype_code = QTYPE_CODES.get(qtype, "999")
 
             # Create the main question element
             question = SubElement(questions, "question", {
-                "schemaid": schemaid,
+                "schemaid": schemaid,  # Now uses schemaid passed as a parameter
                 "qid": qid,
-                "qtype": qtype,
+                "qtype": qtype_code,  # Use the code instead of textual qtype
                 "pageorder": page_id,
                 "qorder": qorder
             })
@@ -72,7 +84,7 @@ def pretty_print_xml(xml_element):
     return dom.toprettyxml(indent="  ")
 
 
-def convert_json_file_to_xml(json_file_path):
+def convert_json_file_to_xml(json_file_path, schemaid):
     """Converts the JSON file to the specified XML format, excluding certain qtypes and components without simpleBinding."""
     # Check if the file exists
     if not os.path.exists(json_file_path):
@@ -88,7 +100,7 @@ def convert_json_file_to_xml(json_file_path):
             return
 
     # Convert JSON to XML
-    xml_tree = json_to_xml(json_data)
+    xml_tree = json_to_xml(json_data, schemaid)
 
     # Generate the XML file path
     xml_file_path = os.path.splitext(json_file_path)[0] + '.xml'
@@ -102,9 +114,10 @@ def convert_json_file_to_xml(json_file_path):
 
 
 if __name__ == "__main__":
-    # Check if a file path is passed as an argument
-    if len(sys.argv) != 2:
-        print("Usage: python json_to_xml.py <json-file-path>")
+    # Check if the correct arguments are passed
+    if len(sys.argv) != 3:
+        print("Usage: python json_to_xml.py <json-file-path> <schemaid>")
     else:
         json_file_path = sys.argv[1]
-        convert_json_file_to_xml(json_file_path)
+        schemaid = sys.argv[2]  # schemaid is passed as the second argument
+        convert_json_file_to_xml(json_file_path, schemaid)

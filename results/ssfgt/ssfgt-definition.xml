@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<root>
+  <questions>
+    <question schemaid="1337" qid="SELK" qtype="500" pageorder="Side1" qorder="2">
+      <questiontext languageid="nb" qtext="Henvendelsen gjelder"/>
+      <options>
+        <option>
+          <label>Søknad om stipend</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Ettersending av dokumentasjon</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="Q7" qtype="500" pageorder="Side2a" qorder="2">
+      <questiontext languageid="nb" qtext="Jeg søker stipend til"/>
+      <options>
+        <option>
+          <label>Ex.phil. / Ex.fac.</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nettbasert kurs i brannvern</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>TOEFL-test</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Truckførerkurs</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Maskinførerkurs</label>
+          <value>5</value>
+        </option>
+        <option>
+          <label>Vekterkurs</label>
+          <value>6</value>
+        </option>
+        <option>
+          <label>Krankurs/Liftkurs</label>
+          <value>7</value>
+        </option>
+        <option>
+          <label>Kjemikaliedykkerkurs</label>
+          <value>8</value>
+        </option>
+        <option>
+          <label>Førerkort</label>
+          <value>9</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>10</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="Q15" qtype="400" pageorder="Side2a" qorder="3">
+      <questiontext languageid="nb" qtext="Utfyllende begrunnelse for søknaden"/>
+    </question>
+    <question schemaid="1337" qid="Q16" qtype="300" pageorder="Side2a" qorder="5"/>
+    <question schemaid="1337" qid="Q17" qtype="300" pageorder="Side2a" qorder="6"/>
+    <question schemaid="1337" qid="Q18" qtype="300" pageorder="Side2a" qorder="7"/>
+    <question schemaid="1337" qid="Q19" qtype="300" pageorder="Side2a" qorder="8"/>
+    <question schemaid="1337" qid="Q20" qtype="300" pageorder="Side2a" qorder="9"/>
+    <question schemaid="1337" qid="Q9" qtype="500" pageorder="Side2b" qorder="2">
+      <questiontext languageid="nb" qtext="Jeg ettersender dokumentasjon for"/>
+      <options>
+        <option>
+          <label>Eksamensavgifter VGS</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Annet</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="Q10" qtype="300" pageorder="Side2b" qorder="3">
+      <questiontext languageid="nb" qtext="Hva annet vil du dokumentere?"/>
+    </question>
+    <question schemaid="1337" qid="INFOMANGLENDEDOK" qtype="501" pageorder="Side2b" qorder="4">
+      <options>
+        <option>
+          <label>Trykk her hvis dette er en ettersending av dokumentasjon pga mangelfull dokumentasjon ved tidligere innlevering.</label>
+          <value>1</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="Q15" qtype="400" pageorder="Side2b" qorder="5">
+      <questiontext languageid="nb" qtext="Merknad"/>
+    </question>
+    <question schemaid="1337" qid="Q14" qtype="501" pageorder="Side3" qorder="3">
+      <options>
+        <option>
+          <label>Trykk her for å bekrefte</label>
+          <value>1</value>
+        </option>
+      </options>
+    </question>
+  </questions>
+</root>
