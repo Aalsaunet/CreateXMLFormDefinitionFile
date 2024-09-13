@@ -14,13 +14,19 @@ QTYPE_CODES = {
     "TextArea": "201", # Tall = 300
     "Datepicker": "401",
     "RadioButtons": "500",
+    "Dropdown": "500",
     "Checkboxes": "501",
+    "MultipleSelect": "501",
 }
 
 
 def json_to_xml(json_obj, schemaid):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
-    root = Element("root")
+    root = Element("altinnform", {
+        "schemaid": str(schemaid),
+        "languageid" : "0",
+        "name": json_obj.get("appId")
+    })
     questions = SubElement(root, "questions")
     pcount = 1; qcount = 1
 
@@ -48,7 +54,7 @@ def json_to_xml(json_obj, schemaid):
 
             # Create the main question element
             question = SubElement(questions, "question", {
-                "schemaid": str(schemaid),  # Now uses schemaid passed as a parameter
+                "schemaid": str(schemaid),
                 "qid": str(qid),
                 "qtype": str(qtype_code),  # Use the code instead of textual qtype
                 "pageorder": str(pcount),
@@ -83,7 +89,7 @@ def json_to_xml(json_obj, schemaid):
 
 def pretty_print_xml(xml_element):
     """Pretty prints an XML element."""
-    raw_string = tostring(xml_element, encoding='utf-8', method='xml')
+    raw_string = tostring(xml_element, encoding='utf-8', method='xml', xml_declaration=True)
     dom = xml.dom.minidom.parseString(raw_string)
     return dom.toprettyxml(indent="  ")
 

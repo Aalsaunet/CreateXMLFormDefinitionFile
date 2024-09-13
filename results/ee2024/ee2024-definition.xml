@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<root>
+<?xml version="1.0" ?>
+<altinnform schemaid="4188" languageid="0" name="egenerklaering-2024">
   <questions>
-    <question schemaid="4188" qid="INFOEPOST" qtype="300" pageorder="1" qorder="1"/>
+    <question schemaid="4188" qid="INFOEPOST" qtype="201" pageorder="1" qorder="1"/>
     <question schemaid="4188" qid="Q136" qtype="500" pageorder="2" qorder="2">
       <questiontext languageid="nb" qtext="1: Hvor har du fått mest informasjon om Forsvaret"/>
       <options>
@@ -217,8 +217,8 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="HOYD1" qtype="300" pageorder="3" qorder="9"/>
-    <question schemaid="4188" qid="VEKT1" qtype="300" pageorder="3" qorder="10"/>
+    <question schemaid="4188" qid="HOYD1" qtype="201" pageorder="3" qorder="9"/>
+    <question schemaid="4188" qid="VEKT1" qtype="201" pageorder="3" qorder="10"/>
     <question schemaid="4188" qid="Q5" qtype="500" pageorder="3" qorder="11">
       <options>
         <option>
@@ -239,7 +239,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EV3M" qtype="999" pageorder="3" qorder="12">
+    <question schemaid="4188" qid="EV3M" qtype="500" pageorder="3" qorder="12">
       <options>
         <option>
           <label>12:00 eller mindre</label>
@@ -263,7 +263,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVPU" qtype="999" pageorder="3" qorder="13">
+    <question schemaid="4188" qid="EVPU" qtype="500" pageorder="3" qorder="13">
       <options>
         <option>
           <label>0</label>
@@ -291,7 +291,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVHU1" qtype="999" pageorder="3" qorder="14">
+    <question schemaid="4188" qid="EVHU1" qtype="500" pageorder="3" qorder="14">
       <options>
         <option>
           <label>0</label>
@@ -319,7 +319,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVSL" qtype="999" pageorder="3" qorder="15">
+    <question schemaid="4188" qid="EVSL" qtype="500" pageorder="3" qorder="15">
       <options>
         <option>
           <label>144 eller kortere</label>
@@ -792,7 +792,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q97" qtype="999" pageorder="6" qorder="48">
+    <question schemaid="4188" qid="Q97" qtype="500" pageorder="6" qorder="48">
       <questiontext languageid="nb" qtext="44 a: Hva beskriver best din erfaring med programmering?"/>
       <options>
         <option>
@@ -813,7 +813,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q91" qtype="999" pageorder="6" qorder="49">
+    <question schemaid="4188" qid="Q91" qtype="500" pageorder="6" qorder="49">
       <questiontext languageid="nb" qtext="44 b: Hvilket instrument spiller du?"/>
       <options>
         <option>
@@ -1045,4 +1045,4 @@
       </options>
     </question>
   </questions>
-</root>
+</altinnform>

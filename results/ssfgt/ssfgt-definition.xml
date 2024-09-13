@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<root>
+<?xml version="1.0" ?>
+<altinnform schemaid="4782" languageid="0" name="stipendsoknad-fgt">
   <questions>
     <question schemaid="4782" qid="SELK" qtype="500" pageorder="1" qorder="1">
       <questiontext languageid="nb" qtext="Henvendelsen gjelder"/>
@@ -59,14 +59,14 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q15" qtype="400" pageorder="2" qorder="3">
+    <question schemaid="4782" qid="Q15" qtype="201" pageorder="2" qorder="3">
       <questiontext languageid="nb" qtext="Utfyllende begrunnelse for søknaden"/>
     </question>
-    <question schemaid="4782" qid="Q16" qtype="300" pageorder="2" qorder="4"/>
-    <question schemaid="4782" qid="Q17" qtype="300" pageorder="2" qorder="5"/>
-    <question schemaid="4782" qid="Q18" qtype="300" pageorder="2" qorder="6"/>
-    <question schemaid="4782" qid="Q19" qtype="300" pageorder="2" qorder="7"/>
-    <question schemaid="4782" qid="Q20" qtype="300" pageorder="2" qorder="8"/>
+    <question schemaid="4782" qid="Q16" qtype="201" pageorder="2" qorder="4"/>
+    <question schemaid="4782" qid="Q17" qtype="201" pageorder="2" qorder="5"/>
+    <question schemaid="4782" qid="Q18" qtype="201" pageorder="2" qorder="6"/>
+    <question schemaid="4782" qid="Q19" qtype="201" pageorder="2" qorder="7"/>
+    <question schemaid="4782" qid="Q20" qtype="201" pageorder="2" qorder="8"/>
     <question schemaid="4782" qid="Q9" qtype="500" pageorder="3" qorder="9">
       <questiontext languageid="nb" qtext="Jeg ettersender dokumentasjon for"/>
       <options>
@@ -80,7 +80,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q10" qtype="300" pageorder="3" qorder="10">
+    <question schemaid="4782" qid="Q10" qtype="201" pageorder="3" qorder="10">
       <questiontext languageid="nb" qtext="Hva annet vil du dokumentere?"/>
     </question>
     <question schemaid="4782" qid="INFOMANGLENDEDOK" qtype="501" pageorder="3" qorder="11">
@@ -91,7 +91,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q15" qtype="400" pageorder="3" qorder="12">
+    <question schemaid="4782" qid="Q15" qtype="201" pageorder="3" qorder="12">
       <questiontext languageid="nb" qtext="Merknad"/>
     </question>
     <question schemaid="4782" qid="Q14" qtype="501" pageorder="4" qorder="13">
@@ -103,4 +103,4 @@
       </options>
     </question>
   </questions>
-</root>
+</altinnform>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<root>
+<altinnform schemaid="2854" languageid="0" name="egenerklaering-2024">
   <questions>
     <question schemaid="2854" qid="Q1" qtype="500" pageorder="2" qorder="1">
       <questiontext languageid="nb" qtext="1: Er flink til å forstå andres behov"/>
@@ -1652,4 +1652,4 @@
       </options>
     </question>
   </questions>
-</root>
+</altinnform>

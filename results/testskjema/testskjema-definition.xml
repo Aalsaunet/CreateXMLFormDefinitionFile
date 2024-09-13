@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
-<root>
+<altinnform schemaid="1337" languageid="0" name="testskjema">
   <questions>
-    <question schemaid="1337" qid="personNavn" qtype="300" pageorder="1" qorder="1">
+    <question schemaid="1337" qid="personNavn" qtype="201" pageorder="1" qorder="1">
       <questiontext languageid="nb" qtext="Skriv inn ditt fornavn."/>
     </question>
-    <question schemaid="1337" qid="personSelvbio" qtype="400" pageorder="1" qorder="2">
+    <question schemaid="1337" qid="personSelvbio" qtype="201" pageorder="1" qorder="2">
       <questiontext languageid="nb" qtext="Selvbiografi"/>
     </question>
     <question schemaid="1337" qid="fargeBil" qtype="501" pageorder="1" qorder="3">
@@ -57,7 +57,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="typeBil" qtype="999" pageorder="1" qorder="5">
+    <question schemaid="1337" qid="typeBil" qtype="500" pageorder="1" qorder="5">
       <questiontext languageid="nb" qtext="Type bil"/>
       <options>
         <option>
@@ -78,7 +78,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="utstyrBil" qtype="999" pageorder="1" qorder="6">
+    <question schemaid="1337" qid="utstyrBil" qtype="501" pageorder="1" qorder="6">
       <questiontext languageid="nb" qtext="Velg utstyr"/>
       <options>
         <option>
@@ -103,7 +103,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="1337" qid="datoKjopt" qtype="999" pageorder="1" qorder="7">
+    <question schemaid="1337" qid="datoKjopt" qtype="401" pageorder="1" qorder="7">
       <questiontext languageid="nb" qtext="Dato kjøpt"/>
     </question>
     <question schemaid="1337" qid="typeSykkel.harSykkel" qtype="500" pageorder="2" qorder="8">
@@ -137,4 +137,4 @@
       </options>
     </question>
   </questions>
-</root>
+</altinnform>
