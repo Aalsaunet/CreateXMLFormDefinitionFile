@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<root>
+  <questions>
+    <question schemaid="1337" qid="personNavn" qtype="300" pageorder="1" qorder="1">
+      <questiontext languageid="nb" qtext="Skriv inn ditt fornavn."/>
+    </question>
+    <question schemaid="1337" qid="personSelvbio" qtype="400" pageorder="1" qorder="2">
+      <questiontext languageid="nb" qtext="Selvbiografi"/>
+    </question>
+    <question schemaid="1337" qid="fargeBil" qtype="501" pageorder="1" qorder="3">
+      <questiontext languageid="nb" qtext="Farge på din bil"/>
+      <options>
+        <option>
+          <label>Blå</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Grønn</label>
+          <value>2</value>
+        </option>
+        <option>
+          <label>Rød</label>
+          <value>3</value>
+        </option>
+        <option>
+          <label>Svart</label>
+          <value>4</value>
+        </option>
+        <option>
+          <label>Hvit</label>
+          <value>5</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="merkeBil" qtype="500" pageorder="1" qorder="4">
+      <questiontext languageid="nb" qtext="Bilmerke"/>
+      <options>
+        <option>
+          <label>BMW</label>
+          <value>IoQ5</value>
+        </option>
+        <option>
+          <label>Mercedes</label>
+          <value>xmLi</value>
+        </option>
+        <option>
+          <label>Audi</label>
+          <value>rM2B</value>
+        </option>
+        <option>
+          <label>Tesla</label>
+          <value>CYuV</value>
+        </option>
+        <option>
+          <label>Toyota</label>
+          <value>DQJM</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="typeBil" qtype="999" pageorder="1" qorder="5">
+      <questiontext languageid="nb" qtext="Type bil"/>
+      <options>
+        <option>
+          <label>Sedan</label>
+          <value>I7BG</value>
+        </option>
+        <option>
+          <label>Stasjonsvogn</label>
+          <value>n2eL</value>
+        </option>
+        <option>
+          <label>SUV</label>
+          <value>ntvK</value>
+        </option>
+        <option>
+          <label>Coupe</label>
+          <value>ope6</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="utstyrBil" qtype="999" pageorder="1" qorder="6">
+      <questiontext languageid="nb" qtext="Velg utstyr"/>
+      <options>
+        <option>
+          <label>4x4</label>
+          <value>1W2T</value>
+        </option>
+        <option>
+          <label>Sommerdekk</label>
+          <value>xOlI</value>
+        </option>
+        <option>
+          <label>Vinterdekk</label>
+          <value>p2z0</value>
+        </option>
+        <option>
+          <label>Automat</label>
+          <value>mDe4</value>
+        </option>
+        <option>
+          <label>Hengerfeste</label>
+          <value>g9f0</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="datoKjopt" qtype="999" pageorder="1" qorder="7">
+      <questiontext languageid="nb" qtext="Dato kjøpt"/>
+    </question>
+    <question schemaid="1337" qid="typeSykkel.harSykkel" qtype="500" pageorder="2" qorder="8">
+      <questiontext languageid="nb" qtext="Har sykkel?"/>
+      <options>
+        <option>
+          <label>Ja</label>
+          <value>1</value>
+        </option>
+        <option>
+          <label>Nei</label>
+          <value>2</value>
+        </option>
+      </options>
+    </question>
+    <question schemaid="1337" qid="typeSykkel.fargeSykkel" qtype="500" pageorder="2" qorder="9">
+      <questiontext languageid="nb" qtext="Farge sykkel"/>
+      <options>
+        <option>
+          <label>Blå</label>
+          <value>U6pF</value>
+        </option>
+        <option>
+          <label>Rød</label>
+          <value>1GsV</value>
+        </option>
+        <option>
+          <label>Gul</label>
+          <value>bAUr</value>
+        </option>
+      </options>
+    </question>
+  </questions>
+</root>

@@ -8,12 +8,13 @@ import xml.dom.minidom
 QTYPE_EXCLUDED = {"Image", "Header", "NavigationButtons", "Paragraph", "Button", ""}
 
 # Mapping of qtypes to numerical codes
+# Add more mappings as needed
 QTYPE_CODES = {
+    "Input": "201", # Tekst = 201
+    "TextArea": "201", # Tall = 300
+    "Datepicker": "401",
     "RadioButtons": "500",
-    "Input": "300",
     "Checkboxes": "501",
-    "TextArea": "400",
-    # Add more mappings as needed
 }
 
 
