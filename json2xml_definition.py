@@ -1,24 +1,11 @@
 import json
 import os
 import sys
-from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
+from xml.etree.ElementTree import Element, SubElement, tostring
 import xml.dom.minidom
 
-# List of qtypes to exclude
-QTYPE_EXCLUDED = {"Image", "NavigationButtons", "Paragraph", "Button", ""}
-
-# Mapping of qtypes to numerical codes
-# Add more mappings as needed
-# QTYPE_CODES = {
-#     "Input": "201", # Tekst = 201
-#     "TextArea": "201", # Tall = 300
-#     "Datepicker": "401",
-#     "RadioButtons": "500",
-#     "Dropdown": "500",
-#     "Checkboxes": "501",
-#     "MultipleSelect": "501",
-# }
-
+# List of components to exclude because they do not represent questions 
+EXCLUDED_COMPONENTS = {"Header", "Image", "NavigationButtons", "Paragraph", "Button", ""}
 
 def json_to_xml(json_obj, schemaid):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
@@ -26,32 +13,33 @@ def json_to_xml(json_obj, schemaid):
         "schemaid": str(schemaid),
         "name": json_obj.get("appId")
     })
+
     questions = SubElement(root, "questions")
     pcount = 1; qcount = 1
 
     for page in json_obj.get("pages", []):
         pagetitle = ""
         for component in page.get("components", []):
-            qtype = component.get("type", "")
+            ctype = component.get("type", "")
             
-            # Skip if the qtype is in the exclusion list
-            if qtype in QTYPE_EXCLUDED:
+            # Skip if the ctype is in the exclusion list
+            if ctype in EXCLUDED_COMPONENTS:
+                if str(ctype) == "Header" and pagetitle == "": # Store for later component attribute usage?
+                    pagetitle = component.get("texts", {})[0].get("text", {})[0].get("value", "")
                 continue
-            elif str(qtype) == "Header" and pagetitle == "":
-                pagetitle = component.get("texts", {})[0].get("text", {})[0].get("value", "")
 
             # Get the qid from dataModelBindings.simpleBinding
             data_model_bindings = component.get("dataModelBindings", {})
             qid = data_model_bindings.get("simpleBinding", None)
 
-            # If qid (simpleBinding) is not available, skip this component
+            # If qid (i.e a simpleBinding) is not available, skip this component
             if not qid:
                 continue
 
             # Create the main question element
             question = SubElement(questions, "question", {
                 "qid": str(qid),
-                "qtype": str(qtype),
+                "qtype": str(ctype),
                 "pageorder": str(pcount),
                 "pagetitle": str(pagetitle),
                 "qorder": str(qcount)
@@ -125,5 +113,5 @@ if __name__ == "__main__":
         print("Usage: python json_to_xml.py <json-file-path> <schemaid>")
     else:
         json_file_path = sys.argv[1]
-        schemaid = sys.argv[2]  # schemaid is passed as the second argument
+        schemaid = sys.argv[2]
         convert_json_file_to_xml(json_file_path, schemaid)
