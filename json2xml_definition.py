@@ -5,39 +5,40 @@ from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
 import xml.dom.minidom
 
 # List of qtypes to exclude
-QTYPE_EXCLUDED = {"Image", "Header", "NavigationButtons", "Paragraph", "Button", ""}
+QTYPE_EXCLUDED = {"Image", "NavigationButtons", "Paragraph", "Button", ""}
 
 # Mapping of qtypes to numerical codes
 # Add more mappings as needed
-QTYPE_CODES = {
-    "Input": "201", # Tekst = 201
-    "TextArea": "201", # Tall = 300
-    "Datepicker": "401",
-    "RadioButtons": "500",
-    "Dropdown": "500",
-    "Checkboxes": "501",
-    "MultipleSelect": "501",
-}
+# QTYPE_CODES = {
+#     "Input": "201", # Tekst = 201
+#     "TextArea": "201", # Tall = 300
+#     "Datepicker": "401",
+#     "RadioButtons": "500",
+#     "Dropdown": "500",
+#     "Checkboxes": "501",
+#     "MultipleSelect": "501",
+# }
 
 
 def json_to_xml(json_obj, schemaid):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
     root = Element("altinnform", {
         "schemaid": str(schemaid),
-        "languageid" : "0",
         "name": json_obj.get("appId")
     })
     questions = SubElement(root, "questions")
     pcount = 1; qcount = 1
 
     for page in json_obj.get("pages", []):
-        # page_id = page.get("pageId", "") TODO: Remove
+        pagetitle = ""
         for component in page.get("components", []):
             qtype = component.get("type", "")
             
             # Skip if the qtype is in the exclusion list
             if qtype in QTYPE_EXCLUDED:
                 continue
+            elif str(qtype) == "Header" and pagetitle == "":
+                pagetitle = component.get("texts", {})[0].get("text", {})[0].get("value", "")
 
             # Get the qid from dataModelBindings.simpleBinding
             data_model_bindings = component.get("dataModelBindings", {})
@@ -47,17 +48,12 @@ def json_to_xml(json_obj, schemaid):
             if not qid:
                 continue
 
-            # qorder = str(component.get("sortOrder", "")) TODO: Remove
-
-            # Get the qtype code from the mapping, default to "999" if not found
-            qtype_code = QTYPE_CODES.get(qtype, "999")
-
             # Create the main question element
             question = SubElement(questions, "question", {
-                "schemaid": str(schemaid),
                 "qid": str(qid),
-                "qtype": str(qtype_code),  # Use the code instead of textual qtype
+                "qtype": str(qtype),
                 "pageorder": str(pcount),
+                "pagetitle": str(pagetitle),
                 "qorder": str(qcount)
             })
 

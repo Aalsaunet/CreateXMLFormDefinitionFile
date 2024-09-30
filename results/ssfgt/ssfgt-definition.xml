@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<altinnform schemaid="4782" languageid="0" name="stipendsoknad-fgt">
+<altinnform schemaid="4782" name="stipendsoknad-fgt">
   <questions>
-    <question schemaid="4782" qid="SELK" qtype="500" pageorder="1" qorder="1">
+    <question qid="SELK" qtype="RadioButtons" pageorder="1" pagetitle="Opplysninger" qorder="1">
       <questiontext languageid="nb" qtext="Henvendelsen gjelder"/>
       <options>
         <option>
@@ -14,7 +14,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q7" qtype="500" pageorder="2" qorder="2">
+    <question qid="Q7" qtype="RadioButtons" pageorder="2" pagetitle="Opplysninger" qorder="2">
       <questiontext languageid="nb" qtext="Jeg søker stipend til"/>
       <options>
         <option>
@@ -59,15 +59,15 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q15" qtype="201" pageorder="2" qorder="3">
+    <question qid="Q15" qtype="TextArea" pageorder="2" pagetitle="Opplysninger" qorder="3">
       <questiontext languageid="nb" qtext="Utfyllende begrunnelse for søknaden"/>
     </question>
-    <question schemaid="4782" qid="Q16" qtype="201" pageorder="2" qorder="4"/>
-    <question schemaid="4782" qid="Q17" qtype="201" pageorder="2" qorder="5"/>
-    <question schemaid="4782" qid="Q18" qtype="201" pageorder="2" qorder="6"/>
-    <question schemaid="4782" qid="Q19" qtype="201" pageorder="2" qorder="7"/>
-    <question schemaid="4782" qid="Q20" qtype="201" pageorder="2" qorder="8"/>
-    <question schemaid="4782" qid="Q9" qtype="500" pageorder="3" qorder="9">
+    <question qid="Q16" qtype="Input" pageorder="2" pagetitle="Opplysninger" qorder="4"/>
+    <question qid="Q17" qtype="Input" pageorder="2" pagetitle="Opplysninger" qorder="5"/>
+    <question qid="Q18" qtype="Input" pageorder="2" pagetitle="Opplysninger" qorder="6"/>
+    <question qid="Q19" qtype="Input" pageorder="2" pagetitle="Opplysninger" qorder="7"/>
+    <question qid="Q20" qtype="Input" pageorder="2" pagetitle="Opplysninger" qorder="8"/>
+    <question qid="Q9" qtype="RadioButtons" pageorder="3" pagetitle="Opplysninger" qorder="9">
       <questiontext languageid="nb" qtext="Jeg ettersender dokumentasjon for"/>
       <options>
         <option>
@@ -80,10 +80,10 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q10" qtype="201" pageorder="3" qorder="10">
+    <question qid="Q10" qtype="Input" pageorder="3" pagetitle="Opplysninger" qorder="10">
       <questiontext languageid="nb" qtext="Hva annet vil du dokumentere?"/>
     </question>
-    <question schemaid="4782" qid="INFOMANGLENDEDOK" qtype="501" pageorder="3" qorder="11">
+    <question qid="INFOMANGLENDEDOK" qtype="Checkboxes" pageorder="3" pagetitle="Opplysninger" qorder="11">
       <options>
         <option>
           <label>Trykk her hvis dette er en ettersending av dokumentasjon pga mangelfull dokumentasjon ved tidligere innlevering.</label>
@@ -91,10 +91,10 @@
         </option>
       </options>
     </question>
-    <question schemaid="4782" qid="Q15" qtype="201" pageorder="3" qorder="12">
+    <question qid="Q15" qtype="TextArea" pageorder="3" pagetitle="Opplysninger" qorder="12">
       <questiontext languageid="nb" qtext="Merknad"/>
     </question>
-    <question schemaid="4782" qid="Q14" qtype="501" pageorder="4" qorder="13">
+    <question qid="Q14" qtype="Checkboxes" pageorder="4" pagetitle="Bekreftelse" qorder="13">
       <options>
         <option>
           <label>Trykk her for å bekrefte</label>
