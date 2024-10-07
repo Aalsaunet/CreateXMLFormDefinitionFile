@@ -1,0 +1,17 @@
+<model>
+    <personNavn>Andreas</personNavn>
+    <personSelvbio>Dataingeniør, musiker, gamer og bokelsker.</personSelvbio>
+    <fargeBil>1,2,3</fargeBil>
+    <merkeBil>rM2B</merkeBil>
+    <typeBil>n2eL</typeBil>
+    <utstyrBil>xOlI,p2z0</utstyrBil>
+    <datoKjopt>2024-09-24</datoKjopt>
+    <typeSykkel>
+        <harSykkel>1</harSykkel>
+        <fargeSykkel>U6pF</fargeSykkel>
+    </typeSykkel>
+    <typeSykkel>
+        <harSykkel>2</harSykkel>
+        <fargeSykkel>1GsV</fargeSykkel>
+    </typeSykkel>
+</model>
