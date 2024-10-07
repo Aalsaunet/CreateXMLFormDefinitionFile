@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
-<altinnform schemaid="4188" languageid="0" name="egenerklaering-2024">
+<altinnform schemaid="4188" name="egenerklaering-2024">
   <questions>
-    <question schemaid="4188" qid="INFOEPOST" qtype="201" pageorder="1" qorder="1"/>
-    <question schemaid="4188" qid="Q136" qtype="500" pageorder="2" qorder="2">
+    <question qid="INFOEPOST" qtype="Input" pageorder="1" pagetitle="Innledning" qorder="1"/>
+    <question qid="PERSONNUMMER" qtype="Input" pageorder="1" pagetitle="Innledning" qorder="2"/>
+    <question qid="Q136" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="3">
       <questiontext languageid="nb" qtext="1: Hvor har du fått mest informasjon om Forsvaret"/>
       <options>
         <option>
@@ -31,7 +32,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="MTVO1" qtype="500" pageorder="2" qorder="3">
+    <question qid="MTVO1" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="4">
       <questiontext languageid="nb" qtext="2: Jeg ønsker å gjennomføre førstegangstjeneste"/>
       <options>
         <option>
@@ -56,7 +57,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q86" qtype="500" pageorder="2" qorder="4">
+    <question qid="Q86" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="5">
       <questiontext languageid="nb" qtext="2a: Hovedsaklig fordi"/>
       <options>
         <option>
@@ -89,7 +90,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q87" qtype="500" pageorder="2" qorder="5">
+    <question qid="Q87" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="6">
       <questiontext languageid="nb" qtext="2b: Hovedsaklig fordi"/>
       <options>
         <option>
@@ -118,7 +119,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q141" qtype="500" pageorder="2" qorder="6">
+    <question qid="Q141" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="7">
       <questiontext languageid="nb" qtext="3: Jeg kunne tenkt meg videre tjeneste i Forsvaret etter førstegangstjenesten"/>
       <options>
         <option>
@@ -143,7 +144,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q139" qtype="500" pageorder="2" qorder="7">
+    <question qid="Q139" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="8">
       <questiontext languageid="nb" qtext="4: Jeg er interessert i en spesiell utdanning i Forsvaret"/>
       <options>
         <option>
@@ -192,7 +193,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q95" qtype="500" pageorder="2" qorder="8">
+    <question qid="Q95" qtype="RadioButtons" pageorder="2" pagetitle="Motivasjon" qorder="9">
       <questiontext languageid="nb" qtext="5: Hvis Forsvaret velger deg for gjennomføring av førstegangstjenesten, hvilken forsvarsgren kunne du tenke deg å tjenestegjøre i?"/>
       <options>
         <option>
@@ -217,9 +218,9 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="HOYD1" qtype="201" pageorder="3" qorder="9"/>
-    <question schemaid="4188" qid="VEKT1" qtype="201" pageorder="3" qorder="10"/>
-    <question schemaid="4188" qid="Q5" qtype="500" pageorder="3" qorder="11">
+    <question qid="HOYD1" qtype="Input" pageorder="3" pagetitle="Fysisk form" qorder="10"/>
+    <question qid="VEKT1" qtype="Input" pageorder="3" pagetitle="Fysisk form" qorder="11"/>
+    <question qid="Q5" qtype="RadioButtons" pageorder="3" pagetitle="Fysisk form" qorder="12">
       <options>
         <option>
           <label>5 ganger i uka eller mer</label>
@@ -239,7 +240,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EV3M" qtype="500" pageorder="3" qorder="12">
+    <question qid="EV3M" qtype="Dropdown" pageorder="3" pagetitle="Fysisk form" qorder="13">
       <options>
         <option>
           <label>12:00 eller mindre</label>
@@ -263,7 +264,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVPU" qtype="500" pageorder="3" qorder="13">
+    <question qid="EVPU" qtype="Dropdown" pageorder="3" pagetitle="Fysisk form" qorder="14">
       <options>
         <option>
           <label>0</label>
@@ -291,7 +292,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVHU1" qtype="500" pageorder="3" qorder="14">
+    <question qid="EVHU1" qtype="Dropdown" pageorder="3" pagetitle="Fysisk form" qorder="15">
       <options>
         <option>
           <label>0</label>
@@ -319,7 +320,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="EVSL" qtype="500" pageorder="3" qorder="15">
+    <question qid="EVSL" qtype="Dropdown" pageorder="3" pagetitle="Fysisk form" qorder="16">
       <options>
         <option>
           <label>144 eller kortere</label>
@@ -347,7 +348,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="SVOM1" qtype="500" pageorder="3" qorder="16">
+    <question qid="SVOM1" qtype="RadioButtons" pageorder="3" pagetitle="Fysisk form" qorder="17">
       <options>
         <option>
           <label>Ja</label>
@@ -359,7 +360,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q12" qtype="500" pageorder="3" qorder="17">
+    <question qid="Q12" qtype="RadioButtons" pageorder="3" pagetitle="Fysisk form" qorder="18">
       <options>
         <option>
           <label>Ofte (10 ganger eller mer per år)</label>
@@ -379,7 +380,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="SKIF" qtype="500" pageorder="3" qorder="18">
+    <question qid="SKIF" qtype="RadioButtons" pageorder="3" pagetitle="Fysisk form" qorder="19">
       <options>
         <option>
           <label>Konkurranseløper</label>
@@ -399,7 +400,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q99" qtype="500" pageorder="4" qorder="19">
+    <question qid="Q99" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="20">
       <questiontext languageid="nb" qtext="16: Har du kreftsykdom som ikke er ferdig behandlet eller som fortsatt kontrolleres hos spesialist?"/>
       <options>
         <option>
@@ -412,7 +413,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q100" qtype="500" pageorder="4" qorder="20">
+    <question qid="Q100" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="21">
       <questiontext languageid="nb" qtext="17: Har du / har du hatt nevrologisk sykdom som medfører lammelser eller nedsatt funksjonsevne?"/>
       <options>
         <option>
@@ -425,7 +426,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q101" qtype="500" pageorder="4" qorder="21">
+    <question qid="Q101" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="22">
       <questiontext languageid="nb" qtext="18: Har du blødersykdom eller annen sykdom som fører til økt blødningstendens?"/>
       <options>
         <option>
@@ -438,7 +439,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q102" qtype="500" pageorder="4" qorder="22">
+    <question qid="Q102" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="23">
       <questiontext languageid="nb" qtext="19: Har du diabetes, (sukkersyke), uansett type?"/>
       <options>
         <option>
@@ -451,7 +452,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q103" qtype="500" pageorder="4" qorder="23">
+    <question qid="Q103" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="24">
       <questiontext languageid="nb" qtext="20: Har du epilepsi eller har hatt barneepilepsi som fortsatt krever kontroll hos spesialist?"/>
       <options>
         <option>
@@ -464,7 +465,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q104" qtype="500" pageorder="4" qorder="24">
+    <question qid="Q104" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="25">
       <questiontext languageid="nb" qtext="21: Har du psykisk utviklingshemming?"/>
       <options>
         <option>
@@ -477,7 +478,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q105" qtype="500" pageorder="4" qorder="25">
+    <question qid="Q105" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="26">
       <questiontext languageid="nb" qtext="22: Har du autisme, Aspergers syndrom eller Tourettes syndrom?"/>
       <options>
         <option>
@@ -490,7 +491,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q106" qtype="500" pageorder="4" qorder="26">
+    <question qid="Q106" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="27">
       <questiontext languageid="nb" qtext="23: Har du noen gang hatt planer om å ta ditt eget liv?"/>
       <options>
         <option>
@@ -503,7 +504,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q107" qtype="500" pageorder="4" qorder="27">
+    <question qid="Q107" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="28">
       <questiontext languageid="nb" qtext="24: Har du skadet deg selv med vilje?"/>
       <options>
         <option>
@@ -516,7 +517,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q108" qtype="500" pageorder="4" qorder="28">
+    <question qid="Q108" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="29">
       <questiontext languageid="nb" qtext="25: Har du ADHD/ADD?"/>
       <options>
         <option>
@@ -529,7 +530,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q109" qtype="500" pageorder="4" qorder="29">
+    <question qid="Q109" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="30">
       <questiontext languageid="nb" qtext="26: Har du / har du hatt psykose?"/>
       <options>
         <option>
@@ -542,7 +543,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q144" qtype="500" pageorder="4" qorder="30">
+    <question qid="Q144" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="31">
       <questiontext languageid="nb" qtext="27: Har du / har du hatt behandlingstrengende angst, depresjon eller sosial fobi?"/>
       <options>
         <option>
@@ -555,7 +556,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q110" qtype="500" pageorder="4" qorder="31">
+    <question qid="Q110" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="32">
       <questiontext languageid="nb" qtext="28: Har du / har du hatt spiseforstyrrelse (f.eks. anoreksi eller bulimi)?"/>
       <options>
         <option>
@@ -568,7 +569,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q111" qtype="500" pageorder="4" qorder="32">
+    <question qid="Q111" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="33">
       <questiontext languageid="nb" qtext="29: Har du hatt alvorlig allergisk reaksjon som har medført sykehusinnleggelse eller at du har fått adrenalinpenn?"/>
       <options>
         <option>
@@ -581,7 +582,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q112" qtype="500" pageorder="4" qorder="33">
+    <question qid="Q112" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="34">
       <questiontext languageid="nb" qtext="30: Har du hjertesykdom og/eller hjerterytmeforstyrrelse som fortsatt krever kontroll hos spesialist?"/>
       <options>
         <option>
@@ -594,7 +595,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q113" qtype="500" pageorder="4" qorder="34">
+    <question qid="Q113" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="35">
       <questiontext languageid="nb" qtext="31: Har du hatt spontan pneumothorax (kollaps av lunge uten skade utenfra)?"/>
       <options>
         <option>
@@ -607,7 +608,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q114" qtype="500" pageorder="4" qorder="35">
+    <question qid="Q114" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="36">
       <questiontext languageid="nb" qtext="32: Har du leddgikt eller annen revmatisk sykdom?"/>
       <options>
         <option>
@@ -620,7 +621,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q115" qtype="500" pageorder="4" qorder="36">
+    <question qid="Q115" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="37">
       <questiontext languageid="nb" qtext="33: Har du hatt skulder ute av ledd?"/>
       <options>
         <option>
@@ -633,7 +634,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q116" qtype="500" pageorder="4" qorder="37">
+    <question qid="Q116" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="38">
       <questiontext languageid="nb" qtext="34: Har du alvorlig infeksjonssykdom som er behandlingskrevende eller sykdom som fortsatt medfører smitterisiko (f.eks. HIV, hepatitt B, heptitt C.)?"/>
       <options>
         <option>
@@ -646,7 +647,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q118" qtype="500" pageorder="4" qorder="38">
+    <question qid="Q118" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="39">
       <questiontext languageid="nb" qtext="35: Har du tarmsykdom som ulcerøs kolitt eller Crohns sykdom?"/>
       <options>
         <option>
@@ -659,7 +660,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q119" qtype="500" pageorder="4" qorder="39">
+    <question qid="Q119" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="40">
       <questiontext languageid="nb" qtext="36: Har du cøliaki?"/>
       <options>
         <option>
@@ -672,7 +673,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q120" qtype="500" pageorder="4" qorder="40">
+    <question qid="Q120" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="41">
       <questiontext languageid="nb" qtext="37: Har du laktoseintoleranse?"/>
       <options>
         <option>
@@ -685,7 +686,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q121" qtype="500" pageorder="4" qorder="41">
+    <question qid="Q121" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="42">
       <questiontext languageid="nb" qtext="38: Er du blind på ett eller begge øyne?"/>
       <options>
         <option>
@@ -698,7 +699,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q122" qtype="500" pageorder="4" qorder="42">
+    <question qid="Q122" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="43">
       <questiontext languageid="nb" qtext="39: Er du døv på ett eller begge ører eller bruker høreapparat?"/>
       <options>
         <option>
@@ -711,7 +712,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q98" qtype="500" pageorder="4" qorder="43">
+    <question qid="Q98" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="44">
       <questiontext languageid="nb" qtext="40: Føler du deg helsemessig skikket til tjeneste i Forsvaret?"/>
       <options>
         <option>
@@ -724,7 +725,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q123" qtype="500" pageorder="4" qorder="44">
+    <question qid="Q123" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="45">
       <questiontext languageid="nb" qtext="41: Bruker du medisiner som du trenger å ta hver dag for ikke å bli alvorlig syk?"/>
       <options>
         <option>
@@ -737,7 +738,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q124" qtype="500" pageorder="4" qorder="45">
+    <question qid="Q124" qtype="RadioButtons" pageorder="4" pagetitle="Helse" qorder="46">
       <questiontext languageid="nb" qtext="42: Har du annen alvorlig sykdom, skade, misdannelse eller handikap som ikke er beskrevet i spørsmålene ovenfor som gjør deg uegnet til tjeneste i Forsvaret?"/>
       <options>
         <option>
@@ -750,7 +751,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q26" qtype="500" pageorder="5" qorder="46">
+    <question qid="Q26" qtype="RadioButtons" pageorder="5" pagetitle="Narkotika og doping" qorder="47">
       <questiontext languageid="nb" qtext="43: Har du prøvd narkotika eller doping i løpet av det siste året?"/>
       <options>
         <option>
@@ -767,7 +768,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="HOBB1" qtype="501" pageorder="6" qorder="47">
+    <question qid="HOBB1" qtype="Checkboxes" pageorder="6" pagetitle="Generelle spørsmål" qorder="48">
       <questiontext languageid="nb" qtext="44: Er du aktiv innen en eller flere av følgende hobbyer?"/>
       <options>
         <option>
@@ -792,7 +793,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q97" qtype="500" pageorder="6" qorder="48">
+    <question qid="Q97" qtype="Dropdown" pageorder="6" pagetitle="Generelle spørsmål" qorder="49">
       <questiontext languageid="nb" qtext="44 a: Hva beskriver best din erfaring med programmering?"/>
       <options>
         <option>
@@ -813,7 +814,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="Q91" qtype="500" pageorder="6" qorder="49">
+    <question qid="Q91" qtype="Dropdown" pageorder="6" pagetitle="Generelle spørsmål" qorder="50">
       <questiontext languageid="nb" qtext="44 b: Hvilket instrument spiller du?"/>
       <options>
         <option>
@@ -894,7 +895,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="SPRK2" qtype="500" pageorder="6" qorder="50">
+    <question qid="SPRK2" qtype="RadioButtons" pageorder="6" pagetitle="Generelle spørsmål" qorder="51">
       <questiontext languageid="nb" qtext="45: Kan du noen andre språk enn norsk og engelsk? Skriftlig og/eller muntlig, meget godt."/>
       <options>
         <option>
@@ -907,7 +908,7 @@
         </option>
       </options>
     </question>
-    <question schemaid="4188" qid="SPRK3" qtype="501" pageorder="6" qorder="51">
+    <question qid="SPRK3" qtype="Checkboxes" pageorder="6" pagetitle="Generelle spørsmål" qorder="52">
       <questiontext languageid="nb" qtext="45 a: Hvilke språk på listen her kan du?"/>
       <options>
         <option>
