@@ -7,12 +7,6 @@
             "sortOrder": 0,
             "components": [
                 {
-                    "id": "form1-page1-coatofarms",
-                    "type": "Image",
-                    "texts": [],
-                    "sortOrder": 0
-                },
-                {
                     "id": "form1-page1-title",
                     "type": "Header",
                     "texts": [
@@ -27,7 +21,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 1
+                    "sortOrder": 0
                 },
                 {
                     "id": "form1-page1-question1",
@@ -67,25 +61,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 2
-                },
-                {
-                    "id": "prefill-INFOEPOST",
-                    "type": "Input",
-                    "dataModelBindings": {
-                        "simpleBinding": "INFOEPOST"
-                    },
-                    "texts": [],
-                    "sortOrder": 3
-                },
-                {
-                    "id": "prefill-PERSONNUMMER",
-                    "type": "Input",
-                    "dataModelBindings": {
-                        "simpleBinding": "PERSONNUMMER"
-                    },
-                    "texts": [],
-                    "sortOrder": 4
+                    "sortOrder": 1
                 },
                 {
                     "id": "form1-page1-navigation",
@@ -112,7 +88,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 5
+                    "sortOrder": 2
                 }
             ]
         },
@@ -120,12 +96,6 @@
             "pageId": "Side2a",
             "sortOrder": 1,
             "components": [
-                {
-                    "id": "form1-page2a-coatofarms",
-                    "type": "Image",
-                    "texts": [],
-                    "sortOrder": 0
-                },
                 {
                     "id": "form1-page2a-title",
                     "type": "Header",
@@ -141,7 +111,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 1
+                    "sortOrder": 0
                 },
                 {
                     "id": "form1-page2a-question1",
@@ -253,7 +223,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 2
+                    "sortOrder": 1
                 },
                 {
                     "id": "form1-page2a-question2",
@@ -273,7 +243,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 3
+                    "sortOrder": 2
                 },
                 {
                     "id": "form1-page2a-question3",
@@ -300,7 +270,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 4
+                    "sortOrder": 3
                 },
                 {
                     "id": "form1-page2a-question3-component1",
@@ -320,7 +290,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 5
+                    "sortOrder": 4
                 },
                 {
                     "id": "form1-page2a-question3-component2",
@@ -340,7 +310,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 6
+                    "sortOrder": 5
                 },
                 {
                     "id": "form1-page2a-question3-component3",
@@ -360,7 +330,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 7
+                    "sortOrder": 6
                 },
                 {
                     "id": "form1-page2a-question3-component4",
@@ -380,7 +350,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 8
+                    "sortOrder": 7
                 },
                 {
                     "id": "form1-page2a-question3-component5",
@@ -400,7 +370,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 9
+                    "sortOrder": 8
                 },
                 {
                     "id": "form1-page2a-navigation",
@@ -427,7 +397,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 10
+                    "sortOrder": 9
                 }
             ]
         },
@@ -435,12 +405,6 @@
             "pageId": "Side2b",
             "sortOrder": 2,
             "components": [
-                {
-                    "id": "form1-page2b-coatofarms",
-                    "type": "Image",
-                    "texts": [],
-                    "sortOrder": 0
-                },
                 {
                     "id": "form1-page2b-maintitle",
                     "type": "Header",
@@ -456,7 +420,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 1
+                    "sortOrder": 0
                 },
                 {
                     "id": "form1-page2b-question1",
@@ -496,7 +460,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 2
+                    "sortOrder": 1
                 },
                 {
                     "id": "form1-page2b-question-1-addedinfo",
@@ -516,7 +480,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 3
+                    "sortOrder": 2
                 },
                 {
                     "id": "form1-page2b-checkbox",
@@ -531,12 +495,12 @@
                             "label": [
                                 {
                                     "language": "nb",
-                                    "value": "Trykk her hvis dette er en ettersending av dokumentasjon pga mangelfull dokumentasjon ved tidligere innlevering."
+                                    "value": "Trykk her hvis dette er en ettersending pga mangelfull dokumentasjon ved tidligere innlevering."
                                 }
                             ]
                         }
                     ],
-                    "sortOrder": 4
+                    "sortOrder": 3
                 },
                 {
                     "id": "form1-page2b-question2",
@@ -556,7 +520,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 5
+                    "sortOrder": 4
                 },
                 {
                     "id": "form1-page2b-upload-title",
@@ -573,7 +537,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 6
+                    "sortOrder": 5
                 },
                 {
                     "id": "form1-page2b-paragraph1",
@@ -590,7 +554,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 7
+                    "sortOrder": 6
                 },
                 {
                     "id": "form1-page2b-paragraph2",
@@ -607,13 +571,13 @@
                             ]
                         }
                     ],
-                    "sortOrder": 8
+                    "sortOrder": 7
                 },
                 {
                     "id": "attachments",
                     "type": "FileUpload",
                     "texts": [],
-                    "sortOrder": 9
+                    "sortOrder": 8
                 },
                 {
                     "id": "form1-page2b-navigation",
@@ -640,7 +604,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 10
+                    "sortOrder": 9
                 }
             ]
         },
@@ -648,12 +612,6 @@
             "pageId": "Side3",
             "sortOrder": 3,
             "components": [
-                {
-                    "id": "form1-page3-coatofarms",
-                    "type": "Image",
-                    "texts": [],
-                    "sortOrder": 0
-                },
                 {
                     "id": "form1-page3-title",
                     "type": "Header",
@@ -669,7 +627,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 1
+                    "sortOrder": 0
                 },
                 {
                     "id": "form1-page3-paragraph",
@@ -686,7 +644,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 2
+                    "sortOrder": 1
                 },
                 {
                     "id": "form1-page3-checkbox",
@@ -706,7 +664,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 3
+                    "sortOrder": 2
                 },
                 {
                     "id": "form1-page3-navigation",
@@ -733,7 +691,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 4
+                    "sortOrder": 3
                 },
                 {
                     "id": "form1-send-inn",
@@ -750,7 +708,7 @@
                             ]
                         }
                     ],
-                    "sortOrder": 5
+                    "sortOrder": 4
                 }
             ]
         }

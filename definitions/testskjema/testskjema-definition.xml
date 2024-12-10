@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<altinnform schemaid="1337" name="testskjema">
+<altinnform id="testskjema">
   <questions>
     <question qid="personNavn" qtype="Input" pageorder="1" pagetitle="Tittel på skjema!" qorder="1">
       <questiontext languageid="nb" qtext="Skriv inn ditt fornavn."/>
