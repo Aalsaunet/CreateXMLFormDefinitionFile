@@ -7,11 +7,10 @@ import xml.dom.minidom
 # List of components to exclude because they do not represent questions 
 EXCLUDED_COMPONENTS = {"Header", "Image", "NavigationButtons", "Paragraph", "Button", ""}
 
-def json_to_xml(json_obj, schemaid):
+def json_to_xml(json_obj):
     """Converts a JSON object to the desired XML format, excluding certain qtypes and components without simpleBinding."""
     root = Element("altinnform", {
-        "schemaid": str(schemaid),
-        "name": json_obj.get("appId")
+        "id": json_obj.get("appId")
     })
 
     questions = SubElement(root, "questions")
@@ -78,7 +77,7 @@ def pretty_print_xml(xml_element):
     return dom.toprettyxml(indent="  ")
 
 
-def convert_json_file_to_xml(json_file_path, schemaid):
+def convert_json_file_to_xml(json_file_path):
     """Converts the JSON file to the specified XML format, excluding certain qtypes and components without simpleBinding."""
     # Check if the file exists
     if not os.path.exists(json_file_path):
@@ -94,7 +93,7 @@ def convert_json_file_to_xml(json_file_path, schemaid):
             return
 
     # Convert JSON to XML
-    xml_tree = json_to_xml(json_data, schemaid)
+    xml_tree = json_to_xml(json_data)
 
     # Generate the XML file path
     xml_file_path = os.path.splitext(json_file_path)[0] + '.xml'
@@ -109,9 +108,8 @@ def convert_json_file_to_xml(json_file_path, schemaid):
 
 if __name__ == "__main__":
     # Check if the correct arguments are passed
-    if len(sys.argv) != 3:
-        print("Usage: python json_to_xml.py <json-file-path> <schemaid>")
+    if len(sys.argv) != 2:
+        print("Usage: python json2xml_to_xml.py <json-file-path>")
     else:
         json_file_path = sys.argv[1]
-        schemaid = sys.argv[2]
-        convert_json_file_to_xml(json_file_path, schemaid)
+        convert_json_file_to_xml(json_file_path)
